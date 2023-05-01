@@ -24,21 +24,26 @@
                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="티어" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Brl-Uh-0cB">
-                    <rect key="frame" x="48" y="136" width="30" height="21"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Vkw-wb-xCP">
-                    <rect key="frame" x="0.0" y="362" width="393" height="128"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                </tableView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T4N-YW-Bbd">
                     <rect key="frame" x="368.33333333333331" y="59" width="19.666666666666686" height="21"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Vkw-wb-xCP">
+                    <rect key="frame" x="0.0" y="203" width="393" height="615"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Okb-12-l0S">
+                    <rect key="frame" x="5" y="103" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Adg-xi-N0N"/>
+                        <constraint firstAttribute="width" constant="50" id="Aih-Rf-DwX"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="다이아" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Brl-Uh-0cB">
+                    <rect key="frame" x="65" y="118" width="45" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
@@ -48,9 +53,17 @@
             <constraints>
                 <constraint firstItem="biL-q0-4w4" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="5" id="0rU-c8-1oa"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="T4N-YW-Bbd" secondAttribute="trailing" constant="5" id="5ha-5r-UZ1"/>
+                <constraint firstItem="Vkw-wb-xCP" firstAttribute="top" secondItem="Okb-12-l0S" secondAttribute="bottom" constant="50" id="JiX-Ee-6GY"/>
+                <constraint firstItem="Brl-Uh-0cB" firstAttribute="top" secondItem="biL-q0-4w4" secondAttribute="bottom" constant="23" id="MNu-Rz-M3G"/>
+                <constraint firstItem="Okb-12-l0S" firstAttribute="top" secondItem="biL-q0-4w4" secondAttribute="bottom" constant="8" symbolic="YES" id="Mah-dr-vTM"/>
+                <constraint firstItem="Vkw-wb-xCP" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="OUr-wM-ip1"/>
                 <constraint firstItem="T4N-YW-Bbd" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="P5E-RF-3wv"/>
+                <constraint firstItem="Brl-Uh-0cB" firstAttribute="leading" secondItem="Okb-12-l0S" secondAttribute="trailing" constant="10" id="Vh1-gK-AxV"/>
                 <constraint firstItem="T4N-YW-Bbd" firstAttribute="leading" secondItem="biL-q0-4w4" secondAttribute="trailing" constant="285.32999999999998" id="i2r-TW-ano"/>
+                <constraint firstItem="Vkw-wb-xCP" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="lcL-Ol-SbB"/>
                 <constraint firstItem="biL-q0-4w4" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="qXo-h5-iGH"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Vkw-wb-xCP" secondAttribute="bottom" id="wn7-pX-gNz"/>
+                <constraint firstItem="Okb-12-l0S" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="5" id="yGF-ye-zud"/>
             </constraints>
             <point key="canvasLocation" x="-22.137404580152669" y="20.422535211267608"/>
         </view>

@@ -8,19 +8,32 @@
 import UIKit
 
 class SearchViewController: UIViewController {
-
+    
+    @IBOutlet weak var userName: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
     }
 
     @IBAction func SearchMoveToDetail(_ sender: Any) {
+        
+        guard let summonerName = self.userName.text else{
+            return
+        }
+        RequestAPI.requestSummonerInfo(summonerName: summonerName)
+        
         let detailVC = DetailViewController(nibName: "DetailViewController", bundle: nil)
         
         self.navigationController?.pushViewController(detailVC, animated: true)
         
-        //self.present(detailVC, animated: true)
     }
+    
+//    func loadData() {
+//
+//        let urlSession = URLSession.shared
+//        let url = URL(string: <#T##String#>)
+//    }
     
 }
 
