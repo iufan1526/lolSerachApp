@@ -9,9 +9,13 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
+    @IBOutlet weak var userLevelLabel: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        self.nameLabel.text = ""
         // Do any additional setup after loading the view.
     }
 

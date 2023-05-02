@@ -10,6 +10,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController" customModule="lolSerachApp" customModuleProvider="target">
             <connections>
+                <outlet property="nameLabel" destination="biL-q0-4w4" id="2Af-iE-C2E"/>
+                <outlet property="userLevelLabel" destination="T4N-YW-Bbd" id="77x-0h-LW5"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
