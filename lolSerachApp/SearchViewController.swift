@@ -17,17 +17,20 @@ class SearchViewController: UIViewController {
     }
 
     @IBAction func SearchMoveToDetail(_ sender: Any) {
-        let detailVC = DetailViewController(nibName: "DetailViewController", bundle: nil)
         guard let summonerName = self.userName.text else{
             return
         }
         
-        
-        RequestAPI.requestSummonerInfo(summonerName: summonerName) { userModel in
-          
-            detailVC.nameLabel.text = userModel.name
+        RequestAPI.requestSummonerInfo(summonerName: summonerName) { data in
+            DispatchQueue.main.async {
+                let detailVC = DetailViewController(nibName: "DetailViewController", bundle: nil)
+                detailVC.userName = (data.name ?? "")
+                print(data.rank ?? "x")
+                
+                self.navigationController?.pushViewController(detailVC, animated: true)
+            }
         }
-    
     }
+    
 }
 

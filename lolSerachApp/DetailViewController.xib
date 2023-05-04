@@ -11,7 +11,6 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController" customModule="lolSerachApp" customModuleProvider="target">
             <connections>
                 <outlet property="nameLabel" destination="biL-q0-4w4" id="2Af-iE-C2E"/>
-                <outlet property="userLevelLabel" destination="T4N-YW-Bbd" id="77x-0h-LW5"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -23,12 +22,6 @@
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="253" verticalHuggingPriority="251" text="닉네임" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="biL-q0-4w4">
                     <rect key="frame" x="5" y="59" width="78" height="36"/>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
-                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T4N-YW-Bbd">
-                    <rect key="frame" x="368.33333333333331" y="59" width="19.666666666666686" height="21"/>
-                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
@@ -54,14 +47,11 @@
             <color key="backgroundColor" red="0.14509803921568626" green="0.14509803921568626" blue="0.14509803921568626" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="biL-q0-4w4" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="5" id="0rU-c8-1oa"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="T4N-YW-Bbd" secondAttribute="trailing" constant="5" id="5ha-5r-UZ1"/>
                 <constraint firstItem="Vkw-wb-xCP" firstAttribute="top" secondItem="Okb-12-l0S" secondAttribute="bottom" constant="50" id="JiX-Ee-6GY"/>
                 <constraint firstItem="Brl-Uh-0cB" firstAttribute="top" secondItem="biL-q0-4w4" secondAttribute="bottom" constant="23" id="MNu-Rz-M3G"/>
                 <constraint firstItem="Okb-12-l0S" firstAttribute="top" secondItem="biL-q0-4w4" secondAttribute="bottom" constant="8" symbolic="YES" id="Mah-dr-vTM"/>
                 <constraint firstItem="Vkw-wb-xCP" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="OUr-wM-ip1"/>
-                <constraint firstItem="T4N-YW-Bbd" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="P5E-RF-3wv"/>
                 <constraint firstItem="Brl-Uh-0cB" firstAttribute="leading" secondItem="Okb-12-l0S" secondAttribute="trailing" constant="10" id="Vh1-gK-AxV"/>
-                <constraint firstItem="T4N-YW-Bbd" firstAttribute="leading" secondItem="biL-q0-4w4" secondAttribute="trailing" constant="285.32999999999998" id="i2r-TW-ano"/>
                 <constraint firstItem="Vkw-wb-xCP" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="lcL-Ol-SbB"/>
                 <constraint firstItem="biL-q0-4w4" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="qXo-h5-iGH"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Vkw-wb-xCP" secondAttribute="bottom" id="wn7-pX-gNz"/>

@@ -12,10 +12,12 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var userLevelLabel: UILabel!
     @IBOutlet weak var nameLabel: UILabel!
     
+    var userName: String = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        self.nameLabel.text = ""
+        print(userName)
+        self.nameLabel.text = userName
         // Do any additional setup after loading the view.
     }
 
