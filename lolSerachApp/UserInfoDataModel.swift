@@ -7,9 +7,14 @@
 
 import Foundation
 
-struct UserInfoDataModel : Codable {
+struct LeagueDataModel : Codable {
     let rank: String?
+    let tier: String?
     let leaguePoints: Int?
     let wins: Int?
     let losses: Int?
+}
+
+struct UserInfoDataModel : Codable {
+    let userInfo: [LeagueDataModel]
 }

@@ -9,27 +9,24 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
-    @IBOutlet weak var userLevelLabel: UILabel!
     @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var levelLabel: UILabel!
+    @IBOutlet weak var tierLabel: UILabel!
+    @IBOutlet weak var tierImage: UIImageView!
     
     var userName: String = ""
+    var userTier: String = ""
+    var userWins: Int = 0
+    var userLosses: Int = 0
+    var userRank: String = ""
+    var userLevel: Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(userName)
+    
         self.nameLabel.text = userName
-        // Do any additional setup after loading the view.
+        self.tierLabel.text = userTier
+        self.levelLabel.text = userLevel.description
     }
-
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

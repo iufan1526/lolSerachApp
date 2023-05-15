@@ -10,7 +10,10 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController" customModule="lolSerachApp" customModuleProvider="target">
             <connections>
+                <outlet property="levelLabel" destination="KQC-dg-NHF" id="HQn-xQ-gSh"/>
                 <outlet property="nameLabel" destination="biL-q0-4w4" id="2Af-iE-C2E"/>
+                <outlet property="tierImage" destination="Okb-12-l0S" id="84J-9g-MYO"/>
+                <outlet property="tierLabel" destination="Brl-Uh-0cB" id="09M-KD-H0Q"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -42,6 +45,12 @@
                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="레벨" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KQC-dg-NHF" userLabel="레벨">
+                    <rect key="frame" x="118" y="118" width="30" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" red="0.14509803921568626" green="0.14509803921568626" blue="0.14509803921568626" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -52,6 +61,8 @@
                 <constraint firstItem="Okb-12-l0S" firstAttribute="top" secondItem="biL-q0-4w4" secondAttribute="bottom" constant="8" symbolic="YES" id="Mah-dr-vTM"/>
                 <constraint firstItem="Vkw-wb-xCP" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="OUr-wM-ip1"/>
                 <constraint firstItem="Brl-Uh-0cB" firstAttribute="leading" secondItem="Okb-12-l0S" secondAttribute="trailing" constant="10" id="Vh1-gK-AxV"/>
+                <constraint firstItem="Vkw-wb-xCP" firstAttribute="top" secondItem="KQC-dg-NHF" secondAttribute="bottom" constant="64" id="X26-pJ-lhT"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="KQC-dg-NHF" secondAttribute="trailing" constant="245" id="k2T-mY-Vlb"/>
                 <constraint firstItem="Vkw-wb-xCP" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="lcL-Ol-SbB"/>
                 <constraint firstItem="biL-q0-4w4" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="qXo-h5-iGH"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Vkw-wb-xCP" secondAttribute="bottom" id="wn7-pX-gNz"/>

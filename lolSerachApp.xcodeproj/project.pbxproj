@@ -21,6 +21,16 @@
 		9C4AA08B29FFEC5C006F2B58 /* RequestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4AA08A29FFEC5C006F2B58 /* RequestAPI.swift */; };
 		9C4AA08D2A0139DC006F2B58 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4AA08C2A0139DC006F2B58 /* DataModel.swift */; };
 		9C4AA08F2A028F99006F2B58 /* UserInfoDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4AA08E2A028F99006F2B58 /* UserInfoDataModel.swift */; };
+		9C4AA09A2A125AB9006F2B58 /* 실버.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C4AA0902A125AB9006F2B58 /* 실버.png */; };
+		9C4AA09B2A125ABA006F2B58 /* 브론즈.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C4AA0912A125AB9006F2B58 /* 브론즈.png */; };
+		9C4AA09C2A125ABA006F2B58 /* 플래티넘.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C4AA0922A125AB9006F2B58 /* 플래티넘.png */; };
+		9C4AA09D2A125ABA006F2B58 /* 그랜드마스터.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C4AA0932A125AB9006F2B58 /* 그랜드마스터.png */; };
+		9C4AA09E2A125ABA006F2B58 /* 다이아몬드.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C4AA0942A125AB9006F2B58 /* 다이아몬드.png */; };
+		9C4AA09F2A125ABA006F2B58 /* 아이언.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C4AA0952A125AB9006F2B58 /* 아이언.png */; };
+		9C4AA0A02A125ABA006F2B58 /* 챌린저.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C4AA0962A125AB9006F2B58 /* 챌린저.png */; };
+		9C4AA0A12A125ABA006F2B58 /* 마스터.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C4AA0972A125AB9006F2B58 /* 마스터.png */; };
+		9C4AA0A22A125ABA006F2B58 /* 언랭크.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C4AA0982A125AB9006F2B58 /* 언랭크.png */; };
+		9C4AA0A32A125ABA006F2B58 /* 골드.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C4AA0992A125AB9006F2B58 /* 골드.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +50,16 @@
 		9C4AA08A29FFEC5C006F2B58 /* RequestAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestAPI.swift; sourceTree = "<group>"; };
 		9C4AA08C2A0139DC006F2B58 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		9C4AA08E2A028F99006F2B58 /* UserInfoDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoDataModel.swift; sourceTree = "<group>"; };
+		9C4AA0902A125AB9006F2B58 /* 실버.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "실버.png"; sourceTree = "<group>"; };
+		9C4AA0912A125AB9006F2B58 /* 브론즈.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "브론즈.png"; sourceTree = "<group>"; };
+		9C4AA0922A125AB9006F2B58 /* 플래티넘.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "플래티넘.png"; sourceTree = "<group>"; };
+		9C4AA0932A125AB9006F2B58 /* 그랜드마스터.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "그랜드마스터.png"; sourceTree = "<group>"; };
+		9C4AA0942A125AB9006F2B58 /* 다이아몬드.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "다이아몬드.png"; sourceTree = "<group>"; };
+		9C4AA0952A125AB9006F2B58 /* 아이언.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "아이언.png"; sourceTree = "<group>"; };
+		9C4AA0962A125AB9006F2B58 /* 챌린저.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "챌린저.png"; sourceTree = "<group>"; };
+		9C4AA0972A125AB9006F2B58 /* 마스터.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "마스터.png"; sourceTree = "<group>"; };
+		9C4AA0982A125AB9006F2B58 /* 언랭크.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "언랭크.png"; sourceTree = "<group>"; };
+		9C4AA0992A125AB9006F2B58 /* 골드.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "골드.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +114,16 @@
 		9C4AA08129FF6728006F2B58 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				9C4AA0992A125AB9006F2B58 /* 골드.png */,
+				9C4AA0932A125AB9006F2B58 /* 그랜드마스터.png */,
+				9C4AA0942A125AB9006F2B58 /* 다이아몬드.png */,
+				9C4AA0972A125AB9006F2B58 /* 마스터.png */,
+				9C4AA0912A125AB9006F2B58 /* 브론즈.png */,
+				9C4AA0902A125AB9006F2B58 /* 실버.png */,
+				9C4AA0952A125AB9006F2B58 /* 아이언.png */,
+				9C4AA0982A125AB9006F2B58 /* 언랭크.png */,
+				9C4AA0962A125AB9006F2B58 /* 챌린저.png */,
+				9C4AA0922A125AB9006F2B58 /* 플래티넘.png */,
 				9C4AA08229FF6756006F2B58 /* lol_logo.png */,
 			);
 			path = images;
@@ -159,8 +189,18 @@
 			files = (
 				9C4AA07A29FF649E006F2B58 /* LaunchScreen.storyboard in Resources */,
 				9C4AA07729FF649E006F2B58 /* Assets.xcassets in Resources */,
+				9C4AA09B2A125ABA006F2B58 /* 브론즈.png in Resources */,
+				9C4AA0A12A125ABA006F2B58 /* 마스터.png in Resources */,
 				9C4AA08929FF6A59006F2B58 /* DetailViewController.xib in Resources */,
+				9C4AA09E2A125ABA006F2B58 /* 다이아몬드.png in Resources */,
+				9C4AA09A2A125AB9006F2B58 /* 실버.png in Resources */,
+				9C4AA09F2A125ABA006F2B58 /* 아이언.png in Resources */,
 				9C4AA08329FF6756006F2B58 /* lol_logo.png in Resources */,
+				9C4AA0A22A125ABA006F2B58 /* 언랭크.png in Resources */,
+				9C4AA0A02A125ABA006F2B58 /* 챌린저.png in Resources */,
+				9C4AA0A32A125ABA006F2B58 /* 골드.png in Resources */,
+				9C4AA09C2A125ABA006F2B58 /* 플래티넘.png in Resources */,
+				9C4AA09D2A125ABA006F2B58 /* 그랜드마스터.png in Resources */,
 				9C4AA07229FF649D006F2B58 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

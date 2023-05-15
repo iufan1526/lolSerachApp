@@ -11,8 +11,8 @@ struct DataModel : Codable {
     let id: String?
     let name: String?
     let summonerLevel: Int?
-    var rank: String?
-    var leaguePoints: Int?
-    var wins: Int?
-    var losses: Int?
+    let rank: String?
+    let leaguePoints: Int?
+    let wins: Int?
+    let losses: Int?
 }
