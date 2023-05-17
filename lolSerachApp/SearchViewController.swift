@@ -32,6 +32,9 @@ class SearchViewController: UIViewController {
                     detailVC.userName = (resultData.name ?? "")
                     detailVC.userLevel = (resultData.summonerLevel ?? 0)
                     detailVC.userTier = (userData[0].tier ?? "")
+                    detailVC.userRank = (userData[0].rank ?? "")
+                    detailVC.userWins = (userData[0].wins ?? 0)
+                    detailVC.userLosses = (userData[0].losses ?? 0)
                     
                     self.navigationController?.pushViewController(detailVC, animated: true)
                 }
