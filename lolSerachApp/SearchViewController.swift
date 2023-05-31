@@ -50,7 +50,7 @@ class SearchViewController: UIViewController {
     func getData(summonerName: String) async throws -> DataModel {
         
         let baseUrl = "https://kr.api.riotgames.com"
-        let apiKey = "RGAPI-f2e62552-7029-4c14-82d0-681fb6a94ee8"
+        let apiKey = "RGAPI-bca21198-912a-482f-9e9e-4f1b5ca2a963"
         let serachUrl = "/lol/summoner/v4/summoners/by-name/"
         
         guard let encodingName = summonerName.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed) else {
@@ -74,7 +74,7 @@ class SearchViewController: UIViewController {
     
     func userInfo(encryptedSummonerId: String) async throws -> [LeagueDataModel]{
         let baseUrl = "https://kr.api.riotgames.com"
-        let apiKey = "RGAPI-f2e62552-7029-4c14-82d0-681fb6a94ee8"
+        let apiKey = "RGAPI-bca21198-912a-482f-9e9e-4f1b5ca2a963"
         let serachUrl = "/lol/league/v4/entries/by-summoner/"
         
         guard let encodingName = encryptedSummonerId.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed) else {
